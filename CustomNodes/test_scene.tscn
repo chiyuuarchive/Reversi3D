@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://crspgistb73fm"]
+
+[ext_resource type="PackedScene" uid="uid://cy5g3yb6keiil" path="res://Assets/Models/piece.glb" id="1_e5id6"]
+[ext_resource type="PackedScene" uid="uid://dcx617f6t52s3" path="res://Assets/Models/tile.glb" id="2_yxyem"]
+
+[node name="TestScene" type="Node3D"]
+
+[node name="piece" parent="." instance=ExtResource("1_e5id6")]
+
+[node name="tile" parent="." instance=ExtResource("2_yxyem")]
