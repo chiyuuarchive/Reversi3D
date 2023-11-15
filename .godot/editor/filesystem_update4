@@ -1,1 +1,4 @@
-res://CustomNodes/test_scene.tscn
+res://CustomNodes/TileManager/tilemanager.tscn
+res://CustomNodes/tile.tscn
+res://CustomNodes/tile.gd
+res://CustomNodes/player.gd
