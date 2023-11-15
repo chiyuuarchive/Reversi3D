@@ -1,4 +1,14 @@
-res://CustomNodes/TileManager/tilemanager.tscn
 res://CustomNodes/tile.tscn
-res://CustomNodes/tile.gd
+res://CustomNodes/test_scene.tscn
 res://CustomNodes/player.gd
+res://CustomNodes/game_board.tscn
+res://CustomNodes/tilespawner.gd
+res://CustomNodes/game_board.gd
+res://CustomNodes/TileManager/tilemanager.tscn
+res://CustomNodes/tile.gd
+res://CustomNodes/TileManager/tilemanager.gd
+res://CustomNodes/tilemanager.tscn
+res://Scripts/tilemanager.gd
+res://CustomNodes/main.tscn
+res://Scripts/tile.gd
+res://tilestates.gd

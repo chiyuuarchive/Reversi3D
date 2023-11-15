@@ -1,23 +1,25 @@
-[gd_scene load_steps=5 format=3 uid="uid://cro1jalta3mra"]
+[gd_scene load_steps=5 format=3 uid="uid://dulgu3rvuacwk"]
 
-[ext_resource type="Script" path="res://CustomNodes/Tile/tile.gd" id="1_agtgh"]
+[ext_resource type="Script" path="res://Scripts/tilemanager.gd" id="1_kct0u"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_gwxu5"]
 sky_top_color = Color(1, 1, 1, 1)
 sky_horizon_color = Color(0.8, 0.79225, 0.78325, 1)
 ground_horizon_color = Color(0.8, 0.79225, 0.78325, 1)
 
-[sub_resource type="Sky" id="Sky_3oh6e"]
+[sub_resource type="Sky" id="Sky_k0orb"]
 sky_material = SubResource("ProceduralSkyMaterial_gwxu5")
 
 [sub_resource type="Environment" id="Environment_c4l4r"]
 background_mode = 2
-sky = SubResource("Sky_3oh6e")
+sky = SubResource("Sky_k0orb")
 tonemap_mode = 2
 glow_enabled = true
 
 [node name="TileManager" type="Node3D"]
-script = ExtResource("1_agtgh")
+script = ExtResource("1_kct0u")
+width = 4
+height = 4
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_c4l4r")

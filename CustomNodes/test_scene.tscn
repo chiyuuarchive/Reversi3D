@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://crspgistb73fm"]
-
-[ext_resource type="PackedScene" uid="uid://dulgu3rvuacwk" path="res://CustomNodes/TileManager/tilemanager.tscn" id="1_outvg"]
-
-[node name="TestScene" type="Node3D"]
-
-[node name="TileManager" parent="." instance=ExtResource("1_outvg")]
