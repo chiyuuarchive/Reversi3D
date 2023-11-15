@@ -5,6 +5,8 @@ extends Node3D
 var tileSize : int = 8
 var tilegrid ={}
 
+# var tiles :Tile[,]
+
 func _ready():
 	SetupBoard()
 
@@ -20,7 +22,10 @@ func SetupBoard():
 			var tileScript = preload("res://Scripts/tile.gd")
 			#call constructor (commented code lines doesn't work)
 			# tileScript._init(Vector2(n,m))
+			# if not the 4 center positions
 			# tileScript.SetState(tilestate.Neutral)
+			# else 
+			# assign the starting black and white tiles
 			
 			$".".add_child(tile)
 	for key in tilegrid:
